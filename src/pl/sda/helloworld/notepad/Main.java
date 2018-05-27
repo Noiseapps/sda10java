@@ -15,7 +15,26 @@ public class Main {
 
     private void start() {
         while (true) {
-
+            /*
+                get action - 1. list notes, 2. add note, 3. delete note
+                check action
+                if action == 1:
+                    print list of notes
+                    return to beginning
+                if action == 2:
+                    ask for title and content
+                    check if can add
+                    check title, check content
+                    add note
+                    list notes
+                    return to beginning
+                if action == 3:
+                    ask for index
+                    confirm action
+                    if yes, remove note
+                    list notes
+                    return to beginning
+             */
         }
     }
 
