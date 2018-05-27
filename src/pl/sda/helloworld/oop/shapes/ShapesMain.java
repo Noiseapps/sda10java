@@ -8,11 +8,12 @@ public class ShapesMain {
                 new Circle(90),
                 new Rectangle(1, 2),
                 new Rectangle(20, 12),
-                new Square(7)
+                new Square(7),
+                new Triangle(3,4)
         };
 
         for (Shape shape : shapes) {
-            System.out.println(shape.toString() + " area: " + shape.area() + ", perimeter: " + shape.perimeter());
+            System.out.println(shape.toString());
         }
 
     }

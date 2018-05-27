@@ -1,17 +1,16 @@
 package pl.sda.helloworld.oop.shapes;
 
-public class Shape {
+public abstract class Shape {
 
-    double area() {
-        return 0;
-    }
+    abstract double area();
 
-    double perimeter() {
-        return 0;
-    }
+    abstract double perimeter();
 
     @Override
     public String toString() {
-        return "Shape{}";
+        return "Shape{" +
+                " area: " + area() +
+                " perimeter: " + perimeter() +
+                "}";
     }
 }
