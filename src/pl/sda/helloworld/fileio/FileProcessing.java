@@ -34,6 +34,17 @@ public class FileProcessing {
         return null;
     }
 
+    public void alternateWriteToFile(String fileName, String content) throws IOException {
+        File file = new File(fileName);
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+        FileOutputStream fos = new FileOutputStream(file);
+        fos.write(content.getBytes());
+        fos.flush();
+        fos.close();
+    }
+
     public void writeToFile(String fileName, String content) throws IOException {
         try (Writer writer = new BufferedWriter(new OutputStreamWriter(
                 new FileOutputStream(fileName), "utf-8"))) {

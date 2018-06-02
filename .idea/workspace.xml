@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3125513a-97aa-4a9c-aa4a-7340a1ad1dd9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/someFile.txt" afterPath="$PROJECT_DIR$/someFile.txt" />
+      <change beforePath="$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java" afterPath="$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="someFile.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="someFile.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/someFile.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="111" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+            <state relative-caret-position="3006">
+              <caret line="167" column="26" lean-forward="true" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileProcessing.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -39,6 +49,8 @@
     <findStrings>
       <find>Execute</find>
       <find>read</find>
+      <find>tant</find>
+      <find>orbi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/pl/sda/helloworld/collections/Collections.java" />
         <option value="$PROJECT_DIR$/src/pl/sda/helloworld/collections/AbsoluteComparator.java" />
         <option value="$PROJECT_DIR$/src/pl/sda/helloworld/collections/OddEven.java" />
-        <option value="$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java" />
         <option value="$PROJECT_DIR$/someFile.txt" />
+        <option value="$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java" />
       </list>
     </option>
   </component>
@@ -147,6 +159,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="helloworld" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+              <item name="fileio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -663,8 +682,8 @@
         <state relative-caret-position="0">
           <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,14 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/sda/helloworld/collections/OddEven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -862,8 +873,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/someFile.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="111" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+        <state relative-caret-position="3006">
+          <caret line="167" column="26" lean-forward="true" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/sda/helloworld/fileio/FileProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding />
         </state>
       </provider>
