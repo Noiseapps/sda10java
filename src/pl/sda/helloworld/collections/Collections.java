@@ -77,14 +77,26 @@ public class Collections {
         }
         System.out.println(integers);
 
-
-
-
 //        autoboxing
         int i = new Integer(12);
         Integer i1 = 12;
 
+        integers.sort(new IntComparator());
 
+        integers.sort(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return Math.abs(o1) - Math.abs(o2);
+            }
+        });
+    }
+
+    static class IntComparator implements Comparator<Integer> {
+
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            return 0;
+        }
     }
 
 }
